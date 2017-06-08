@@ -1,0 +1,8 @@
+select nom_c
+from consortium , debris, couche
+where debris.idconP=consortium.idconsortium
+and 
+debris.idconR=consortium.idconsortium
+and 
+debris.idcouche=couche.idcouche
+and couche.nom_couche='exosphère'
