@@ -1,0 +1,8 @@
+﻿le lien représente une relation (parent : type course - enfant : course ) 
+permettant à la table course (enfant) de faire reference à la table type_course (parent) par l'échange de code_type( clé primaire - clé étarngère) pour assurer une constrainte d'intégrité référentielle 
+
+
+codse sql correspondant :
+ 
+CONSTRAINT fk_course_est_type_cou FOREIGN KEY (code_type) 
+    REFERENCES type_course (code_type) 

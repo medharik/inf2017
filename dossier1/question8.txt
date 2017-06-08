@@ -1,0 +1,8 @@
+declare 
+v_nombrecourse number;
+v_date_course :=TO_DATE('08-06-2017', 'DD-MM-YYYY');
+begin 
+n := NBCOURSEDATE(v_date_course, 'DD-MM-YYYY'));
+DBMS_OUTPUT.put_line('il y a '||v_nombrecourse|| ' course le '||v_date_course);
+
+end;

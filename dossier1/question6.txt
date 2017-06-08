@@ -1,0 +1,3 @@
+c'est une clé étrangère qui représente la clé primaire de la table circuit 
+
+
