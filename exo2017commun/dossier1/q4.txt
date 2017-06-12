@@ -1,0 +1,12 @@
+select libelle, to_char(date_m, 'day month  yyyy',NLS_DATE_LANGUAGE='DANISH')
+from debris
+where 
+idcontrat not in (
+select idcontrat from contratA , assurreur
+where constratA.idassureur=assurreur.idassureur
+
+and 
+
+
+nom_assur ='LLYOD'
+)

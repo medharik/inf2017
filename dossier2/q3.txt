@@ -1,0 +1,25 @@
+public class Course {
+	//déclaration des attributs
+public long numero_course;
+public Date date;
+public Date  meilleurTemps;
+public Collection<Membres> membres;
+// constructeur par défaut
+public Course() {
+	
+}
+//constructeur par recopie
+public Course(Course oldCourse) {
+	this.numero_course=oldCourse.numero_course;
+	this.date=oldCourse.date;
+	this.meilleurTemps=meilleurTemps;
+	this.membres=membres;
+	}
+
+//la redéfinition de la methode finalize
+	protected void finalize() throws Throwable {
+	
+		super.finalize();
+	}
+
+}

@@ -1,0 +1,12 @@
+
+create or replace function  NbCourseDate(v_date_course date) return number
+is
+n number;
+begin 
+select  count(*) into n from course where date = v_date_course;
+
+return n;
+
+end;
+
+

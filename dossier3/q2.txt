@@ -1,0 +1,7 @@
+ *{
+ box-sizing:border-box;
+ }
+ chaque  balise (*) de la page web aura   un padding , une bordure et un margin  n'augmentent plus sa largeur et sa hauteur
+
+  }
+
