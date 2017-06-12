@@ -1,5 +1,0 @@
-select nom_couche , count(*) from 
-
-couche , debris 
-where couche.idcouche=debris.idcouche
-group by nom_couche

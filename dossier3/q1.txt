@@ -1,3 +1,0 @@
-Le méta tag « viewport » explique  au navigateur quel comportement il doit adopter pour afficher la page web dans l'écran de l'appareil utilisé (Pc, smart-phone,...).
-
-Cette ligne définit la largeur du « viewport » pour être la même que la taille de l'écran de l'appareil utilisé pour afficher la page web (with=device-width). L'échelle initial d'affichage da la page web  sera 100 %.

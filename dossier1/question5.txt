@@ -1,8 +1,0 @@
-
-
-create user KartDb identified by kartpwd ;
-grant dba to kartdb;
-
-
-create user lecteur  identified by lecteurpwd ;
-grant select  on membres to lecteur
