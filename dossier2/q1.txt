@@ -1,2 +1,0 @@
-le problème lié au mapping-obket-relationnel :
-L'utilisation de la programmation orientée objet avec une base de données relationnelle nécessite de convertir les données relationnelles en objets et vice-versa. Ceci conduit à programmer cette conversion pour chaque objet et sdonc à dupliquer énormément de code similaire.

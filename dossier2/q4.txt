@@ -1,4 +1,0 @@
-La méthode finalize() est appelée par le ramasse-miettes avant qu'une instance ne soit détruite de la mémoire.
-appelée quand un objet est détruit (explecitement ou implicitement )
-But : permet à l'objet de libérer les ressources qu'il utilise (fermeture d'un flux d'accès aux fichiers , fermer une connexion à la base de données ,...)
-
